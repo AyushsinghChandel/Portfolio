@@ -36,7 +36,7 @@ export const Navbar = () => {
 
   return (
     <nav
-      className={`bg-gray-900 w-full z-50 transition-all duration-300 ${
+      className={ `fixed bg-gray-900 w-full z-50 transition-all duration-300 ${
         scrolled
           ? "bg-navy/95 backdrop-blur-md shadow-lg py-2"
           : "bg-transparent py-4"
