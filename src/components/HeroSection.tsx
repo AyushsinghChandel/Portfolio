@@ -16,7 +16,7 @@ export const HeroSection = () => {
               <img 
                 src="/profile.png" 
                 alt="Ayush Singh" 
-                className="mx-10 relative w-[200px] h-[200px] md:w-[350px] md:h-[350px] object-cover rounded-xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-500"
+                className="mx-20 relative w-[200px] h-[200px] md:w-[350px] md:h-[350px] object-cover rounded-xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-500"
               />
            </div>
         </motion.div>
@@ -26,13 +26,13 @@ export const HeroSection = () => {
             transition={{ duration: 0.8 }}
             className="w-full md:w-1/2 flex flex-col items-start text-left order-1 md:order-2 space-y-6"
         >
-            <h1 className="text-white text-3xl md:text-5xl font-bold text-slate">Hi, <span className='text-green-300'>Ayush</span> here.<span className="text-green-300 animate-pulse">..</span></h1>
-            <p className="text-white  max-w-lg text-sm leading-relaxed">
-              I'm an Electronics & Telecommunication student at AIT Pune driven by discipline in the gym and in code. I am fascinated by large-scale, high-impact systems and am ready to contribute to products that touch millions.
+            <h1 className="text-white text-3xl md:text-5xl font-bold text-slate px-1">Hi, <span className='text-green-300'>Ayush</span> here.<span className="text-green-300 animate-pulse">..</span></h1>
+            <p className="text-white  max-w-lg text-sm leading-relaxed py-2 px-1">
+              I'm a Web Developer and Fitness Enthusiast based in <span className="text-green-300">Pune, India</span>. I build         large-scale, high-impact products and love solving complex problems. I am constantly learning and looking for challenges where I can contribute to meaningful software solutions.
             </p>
             <a 
               href="mailto:ayushchandel_230620@aitpune.edu.in"
-              className="group flex items-center gap-3 border border-green text-green-300 px-8 py-4 rounded font-mono text-sm hover:bg-green/10 transition-all duration-300 mt-5"
+              className="mx-1 group flex items-center gap-3 border border-green text-green-300 px-9 py-4 rounded font-mono text-sm hover:bg-green/10 transition-all duration-300 mt-5"
             >
               <Mail className="w-5 h-5 group-hover:animate-bounce" />
               Say Hi!
