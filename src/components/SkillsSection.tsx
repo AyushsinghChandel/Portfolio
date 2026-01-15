@@ -33,7 +33,7 @@ export const SkillsSection = () => {
         </h2>
         <div className="h-[1px] bg-lightestNavy flex-grow ml-6 opacity-50"></div>
       </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mx-10">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mr-1">
         {skills.map((skill, index) => (
           <motion.div
             key={index}
@@ -42,7 +42,7 @@ export const SkillsSection = () => {
             transition={{ duration: 0.3, delay: index * 0.1 }}
             viewport={{ once: true }}
             whileHover={{ scale: 1.05 }}
-            className="group bg-lightNavy p-6 rounded-xl border border-1 hover:border-green-300 cursor-pointer flex flex-col items-center justify-center gap-4"
+            className="group bg-gray-800 p-7 rounded-xl hover:border-green-300 cursor-pointer flex flex-col items-center justify-center gap-4"
           >
             <skill.icon 
               className="w-12 h-12 text-[var(--color)] transition-colors duration-300 group-hover:text-[var(--hover-color)]"

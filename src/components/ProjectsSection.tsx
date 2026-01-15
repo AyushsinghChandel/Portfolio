@@ -71,7 +71,7 @@ export const ProjectsSection = () => {
             transition={{ duration: 0.5, delay: i * 0.1 }}
             viewport={{ once: true }}
             whileHover={{ y: -7 }}
-            className="group bg-lightNavy p-8 rounded-lg transition-all duration-300 hover:shadow-xl hover:shadow-green/10 cursor-pointer flex flex-col h-full"
+            className="group bg-gray-800 p-8 rounded-lg transition-all duration-300 hover:shadow-xl hover:shadow-green/10 cursor-pointer flex flex-col h-full"
           >
             <div className="flex justify-between items-center mb-8">
               <Folder className="w-10 h-10 text-green-300" />
@@ -80,7 +80,7 @@ export const ProjectsSection = () => {
                   href={project.github} 
                   target="_blank" 
                   rel="noreferrer" 
-                  className="text-slate-300 hover:text-green transition-colors"
+                  className="text-slate-300 hover:text-green-300 transition-colors"
                 >
                   <Github size={20} />
                 </a>
@@ -88,7 +88,7 @@ export const ProjectsSection = () => {
                   href={project.link} 
                   target="_blank" 
                   rel="noreferrer" 
-                  className="text-slate-300 hover:text-green transition-colors"
+                  className="text-slate-300 hover:text-green-300 transition-colors"
                 >
                   <ExternalLink size={20} />
                 </a> */}
