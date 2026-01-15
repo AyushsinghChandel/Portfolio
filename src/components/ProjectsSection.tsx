@@ -48,7 +48,8 @@ export const ProjectsSection = () => {
   ];
 
   return (
-    <section id="projects" className="py-24 px-6 md:px-20 max-w-7xl mx-auto bg-slate-900 text-slate">
+    <div className='bg-gray-900'>
+    <section id="projects" className="py-24 px-6 md:px-20 max-w-7xl mx-auto  text-slate">
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -59,7 +60,7 @@ export const ProjectsSection = () => {
         <h2 className="text-2xl md:text-3xl font-bold text-white">
           <span className="text-green font-mono mr-2">/</span> projects
         </h2>
-        <div className="h-[1px] bg-lightestNavy flex-grow ml-6 opacity-50"></div>
+        <div className="h-[1px] flex-grow ml-6 opacity-50"></div>
       </motion.div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {projects.map((project, i) => (
@@ -111,6 +112,7 @@ export const ProjectsSection = () => {
         ))}
       </div>
     </section>
+    </div>
   );
 };
 

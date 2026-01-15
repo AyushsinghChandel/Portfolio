@@ -24,16 +24,16 @@ export const AboutSection = () => {
            viewport={{ once: true }}
            className="md:col-span-2 space-y-6 text-sm leading-relaxed"
         >
-          <p className='text-slate-300'>
+          <p className='text-slate-400'>
             I am currently a student at the <span className="text-green-300">Army Institute of Technology, Pune</span>, pursuing a degree in <span className="text-green-300">Electronics and Telecommunication Engineering</span>. I am fascinated by how large-scale systems work and strive to build high-impact digital experiences that are both efficient and scalable.
           </p>
-          <p className='text-slate-300'>
+          <p className='text-slate-400'>
             
           </p>
-          <p className='text-slate-300'>
+          <p className='text-slate-400'>
             Outside of code and engineering, I am a total nerd who loves geeking out over new <strong>tech gadgets</strong>, watching movies, and getting lost in <strong>fictional books</strong>. I also enjoy playing <strong>competitive games</strong> to keep my reflexes sharp.
           </p>
-          <p className='text-slate-300'>
+          <p className='text-slate-400'>
             Oh, and I am also a dedicated <strong>fitness enthusiast</strong> because a strong mind needs a strong body.
           </p>
         </motion.div>
