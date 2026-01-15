@@ -48,8 +48,7 @@ export const ProjectsSection = () => {
   ];
 
   return (
-    <div className='bg-slate-900'>
-    <section id="projects" className="py-24 px-6 md:px-20 max-w-7xl mx-auto bg-navy text-slate">
+    <section id="projects" className="py-24 px-6 md:px-20 max-w-7xl mx-auto bg-slate-900 text-slate">
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -112,7 +111,6 @@ export const ProjectsSection = () => {
         ))}
       </div>
     </section>
-    </div>
   );
 };
 
