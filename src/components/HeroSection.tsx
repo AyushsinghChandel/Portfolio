@@ -27,7 +27,7 @@ export const HeroSection = () => {
             className="w-full md:w-1/2 flex flex-col items-start text-left order-1 md:order-2 space-y-6"
         >
             <h1 className="text-white text-3xl md:text-5xl font-bold text-slate px-1">Hi, <span className='text-green-300'>Ayush</span> here.<span className="text-green-300 animate-pulse">..</span></h1>
-            <p className="text-white  max-w-lg text-sm leading-relaxed py-2 px-1">
+            <p className="text-slate-400  max-w-lg text-sm leading-relaxed py-2 px-1">
               I'm a Web Developer and Fitness Enthusiast based in <span className="text-green-300">Pune, India</span>. I build         large-scale, high-impact products and love solving complex problems. I am constantly learning and looking for challenges where I can contribute to meaningful software solutions.
             </p>
             <a 
