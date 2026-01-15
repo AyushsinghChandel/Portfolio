@@ -39,7 +39,7 @@ export const Navbar = () => {
       className={ `fixed bg-gray-900 w-full z-50 transition-all duration-300 ${
         scrolled
           ? "bg-navy/95 backdrop-blur-md shadow-lg py-2"
-          : "bg-transparent py-4"
+          : "bg-transparent py-2"
       }`}
     >
       <div className="flex flex-col md:flex-row justify-between items-center px-6 md:px-10 max-w-7xl mx-auto">
